@@ -1,12 +1,44 @@
-# React + Vite
+# 🎨 React Background Changer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React app that allows users to change the **background color** of the entire screen with a single click. Built using **React functional components** and **Tailwind CSS classes** with inline styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 [https://mahnoorshabbir-backgroundchanger.vercel.app/](https://mahnoorshabbir-backgroundchanger.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🟦 Click a button to instantly change the background color
+- 🎯 Centered, responsive, and mobile-friendly layout
+- ⚛️ Built with React `useState` hook for interactivity
+- 🎨 Uses both Tailwind classes and inline styles for layout and colors
+- 📱 Fixed position button panel at the bottom of the screen
+
+---
+
+## 🧠 How It Works
+
+- Maintains a `color` state using `useState`
+- The background color of the main `<div>` updates with `setColor`
+- Each color button updates the `color` state via `onClick`
+
+---
+
+## 🛠 Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) (for bundling, if applicable)
+- Tailwind CSS utility classes (for layout styling)
+- Inline CSS (for button and background colors)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── App.jsx # Main component with color logic and layout
+└── main.jsx # React entry point
